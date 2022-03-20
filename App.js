@@ -1,20 +1,28 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from "expo-status-bar";
+import {
+  StyleSheet,
+  Text,
+  View,
+  ScrollView,
+  Image,
+  TextInput,
+} from "react-native";
+import LearnScrollView from "./LearnScrollView";
+import Box from "./Box";
+import HandleTextInput from "./HandleTextInput";
+import LearnFlatList from "./LearnFlatList";
+import Scroll from "./Scroll";
+import Title from "./Title";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    // <Scroll />
+    // <Box />
+    // <Title />
+    // <HandleTextInput />
+    // <LearnScrollView />
+    <LearnFlatList />
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+const styles = {};
